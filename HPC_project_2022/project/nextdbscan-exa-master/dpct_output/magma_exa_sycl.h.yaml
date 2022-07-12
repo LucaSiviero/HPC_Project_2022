@@ -1,0 +1,797 @@
+---
+MainSourceFile:  '/root/dpct_output/magma_exa_cu.h'
+Replacements:
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1140
+    Length:          0
+    ReplacementText: "#include <oneapi/dpl/execution>\n#include <oneapi/dpl/algorithm>\n#include <CL/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1188
+    Length:          22
+    ReplacementText: '<dpct/dpl_utils.hpp>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1210
+    Length:          0
+    ReplacementText: "\n#include <numeric>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1211
+    Length:          33
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1281
+    Length:          19
+    ReplacementText: 'std::vector'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1341
+    Length:          21
+    ReplacementText: 'dpct::device_vector'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1367
+    Length:          33
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1401
+    Length:          30
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1708
+    Length:          12
+    ReplacementText: 'std::fill'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          1721
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          2043
+    Length:          16
+    ReplacementText: 'dpct::iota'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          2060
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          2436
+    Length:          14
+    ReplacementText: 'std::reduce'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          2451
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          3018
+    Length:          16
+    ReplacementText: 'std::count_if'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          3035
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          3420
+    Length:          22
+    ReplacementText: 'std::exclusive_scan'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          3443
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          3531
+    Length:          0
+    ReplacementText: ', 0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          3908
+    Length:          15
+    ReplacementText: 'std::copy_if'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          3924
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          4576
+    Length:          16
+    ReplacementText: 'std::for_each'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          4593
+    Length:          30
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), dpct::make_counting_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          4632
+    Length:          30
+    ReplacementText: 'dpct::make_counting_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          4900
+    Length:          0
+    ReplacementText: "\n  dpct::device_ext &dev_ct1 = dpct::get_current_device();\n  sycl::queue &q_ct1 = dev_ct1.default_queue();"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          4962
+    Length:          25
+    ReplacementText: 'oneapi::dpl::counting_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          5022
+    Length:          25
+    ReplacementText: 'oneapi::dpl::counting_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          5104
+    Length:          16
+    ReplacementText: 'std::for_each'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          5121
+    Length:          14
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(q_ct1), oneapi::dpl::execution::make_device_policy(q_ct1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          5166
+    Length:          10
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          5936
+    Length:          25
+    ReplacementText: 'oneapi::dpl::counting_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          6014
+    Length:          31
+    ReplacementText: 'oneapi::dpl::make_transform_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          6060
+    Length:          0
+    ReplacementText: '[=](auto _1){return '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          6061
+    Length:          24
+    ReplacementText: _1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          6113
+    Length:          0
+    ReplacementText: ';}'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          6145
+    Length:          33
+    ReplacementText: 'oneapi::dpl::make_permutation_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          6222
+    Length:          19
+    ReplacementText: 'oneapi::dpl::lower_bound'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          6242
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          7124
+    Length:          25
+    ReplacementText: 'oneapi::dpl::counting_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          7202
+    Length:          31
+    ReplacementText: 'oneapi::dpl::make_transform_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          7248
+    Length:          0
+    ReplacementText: '[=](auto _1){return '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          7249
+    Length:          24
+    ReplacementText: _1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          7301
+    Length:          0
+    ReplacementText: ';}'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          7333
+    Length:          33
+    ReplacementText: 'oneapi::dpl::make_permutation_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          7410
+    Length:          19
+    ReplacementText: 'oneapi::dpl::lower_bound'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          7430
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          8228
+    Length:          25
+    ReplacementText: 'oneapi::dpl::counting_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          8306
+    Length:          31
+    ReplacementText: 'oneapi::dpl::make_transform_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          8352
+    Length:          0
+    ReplacementText: '[=](auto _1){return '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          8353
+    Length:          24
+    ReplacementText: _1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          8405
+    Length:          0
+    ReplacementText: ';}'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          8437
+    Length:          33
+    ReplacementText: 'oneapi::dpl::make_permutation_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          8514
+    Length:          19
+    ReplacementText: 'oneapi::dpl::upper_bound'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          8534
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9351
+    Length:          25
+    ReplacementText: 'oneapi::dpl::counting_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9429
+    Length:          31
+    ReplacementText: 'oneapi::dpl::make_transform_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9475
+    Length:          0
+    ReplacementText: '[=](auto _1){return '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9476
+    Length:          24
+    ReplacementText: _1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9528
+    Length:          0
+    ReplacementText: ';}'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9560
+    Length:          33
+    ReplacementText: 'oneapi::dpl::make_permutation_iterator'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9637
+    Length:          19
+    ReplacementText: 'oneapi::dpl::upper_bound'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9657
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          9933
+    Length:          12
+    ReplacementText: 'std::pair'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          10595
+    Length:          12
+    ReplacementText: 'oneapi::dpl::sort'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          10608
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          11415
+    Length:          17
+    ReplacementText: 'std::transform'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          11433
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          11636
+    Length:          10
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          11667
+    Length:          18
+    ReplacementText: 'dpct::device_pointer'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          11725
+    Length:          24
+    ReplacementText: 'dpct::get_raw_pointer'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          11892
+    Length:          10
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          11923
+    Length:          18
+    ReplacementText: 'dpct::device_pointer'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          12001
+    Length:          24
+    ReplacementText: 'dpct::get_raw_pointer'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          12328
+    Length:          12
+    ReplacementText: 'std::copy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/root/magma_exa_cu.h'
+    Offset:          12341
+    Length:          0
+    ReplacementText: 'oneapi::dpl::execution::make_device_policy(dpct::get_default_queue()), '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+DpctVersion:     2022.1.0
+MainHelperFileName: dpct
+USMLevel:        ''
+FeatureMap:
+  algorithm.h:
+    iota:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/root/magma_exa_cu.h'
+      FeatureName:     iota
+      SubFeatureMap:   {}
+  device.hpp:
+    device_ext:
+      IsCalled:        false
+      FeatureName:     ''
+      SubFeatureMap:
+        device_ext_default_queue:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/root/magma_exa_cu.h'
+          FeatureName:     'device_ext::default_queue'
+          SubFeatureMap:   {}
+    get_current_device:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/root/magma_exa_cu.h'
+      FeatureName:     get_current_device
+      SubFeatureMap:   {}
+    get_default_queue:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/root/magma_exa_cu.h'
+      FeatureName:     get_default_queue
+      SubFeatureMap:   {}
+  dpl_utils.hpp:
+    non_local_include_dependency:
+      IsCalled:        true
+      CallerSrcFiles:
+        - ''
+      FeatureName:     ''
+      SubFeatureMap:   {}
+  iterators.h:
+    make_counting_iterator:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/root/magma_exa_cu.h'
+      FeatureName:     make_counting_iterator
+      SubFeatureMap:   {}
+  memory.h:
+    device_pointer_forward_decl:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/root/magma_exa_cu.h'
+      FeatureName:     device_pointer
+      SubFeatureMap:   {}
+    get_raw_pointer:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/root/magma_exa_cu.h'
+      FeatureName:     get_raw_pointer
+      SubFeatureMap:   {}
+  vector.h:
+    device_vector:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/root/magma_exa_cu.h'
+      FeatureName:     device_vector
+      SubFeatureMap:   {}
+CompileTargets:  {}
+OptionMap:
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           ''
+    Specified:       false
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  CustomHelperFileName:
+    Value:           dpct
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitClNamespace:
+    Value:           'false'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionFlag:
+    Value:           '4294967295'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...
